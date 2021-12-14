@@ -1,4 +1,4 @@
-package co.com.gsdd.constants;
+package com.gsdd.constants;
 
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
@@ -12,7 +12,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
 public final class PrintConstants {
 
-    public static final String NO_PRINT_SERVICE = "Could not find any print service.";
-    public static final String REDIRECTED = "redireccionado";
+  public static final String NO_PRINT_SERVICE = "Could not find any print service.";
+  public static final String REDIRECTED = "redireccionado";
 
 }
