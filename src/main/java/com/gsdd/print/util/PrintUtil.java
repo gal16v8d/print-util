@@ -1,5 +1,8 @@
 package com.gsdd.print.util;
 
+import com.gsdd.constants.PrintConstants;
+import com.gsdd.exception.TechnicalException;
+import com.gsdd.validatorutil.ValidatorUtil;
 import java.awt.print.PageFormat;
 import java.awt.print.Paper;
 import java.awt.print.Printable;
@@ -11,18 +14,14 @@ import javax.print.attribute.AttributeSet;
 import javax.print.attribute.HashAttributeSet;
 import javax.print.attribute.PrintServiceAttributeSet;
 import javax.print.attribute.standard.PrinterName;
-import com.gsdd.constants.PrintConstants;
-import com.gsdd.exception.TechnicalException;
-import com.gsdd.validatorutil.ValidatorUtil;
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 /**
- * 
  * @author Great System Development Dynamic (<b>GSDD</b>) <br>
- *         Alexander Galvis Grisales <br>
- *         alex.galvis.sistemas@gmail.com <br>
+ *     Alexander Galvis Grisales <br>
+ *     alex.galvis.sistemas@gmail.com <br>
  */
 @Slf4j
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
@@ -93,5 +92,4 @@ public final class PrintUtil {
       throw new TechnicalException(PrintConstants.NO_PRINT_SERVICE);
     }
   }
-
 }
