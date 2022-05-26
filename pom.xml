@@ -39,7 +39,7 @@
 
 		<checkstyle.version>10.1</checkstyle.version>
 
-		<lombok.version>1.18.22</lombok.version>
+		<lombok.version>1.18.24</lombok.version>
 		<slf4j.version>1.7.36</slf4j.version>
 		<exception-util.version>2.0.1</exception-util.version>
 		<validator-util.version>2.0.1</validator-util.version>
