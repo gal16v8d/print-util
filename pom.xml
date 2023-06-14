@@ -6,11 +6,11 @@
 	<parent>
 		<groupId>com.gsdd</groupId>
 		<artifactId>gsdd-parent</artifactId>
-		<version>1.0.1</version>
+		<version>1.0.2</version>
 	</parent>
 	
 	<artifactId>print-util</artifactId>
-	<version>2.0.2</version>
+	<version>2.0.3</version>
 	<packaging>jar</packaging>
 
 	<name>print-util</name>
@@ -24,8 +24,8 @@
 		<!-- If true skips IT test execution -->
 		<skip.integration.tests>false</skip.integration.tests>
 
-		<exception-util.version>2.0.3</exception-util.version>
-		<validator-util.version>2.0.3</validator-util.version>
+		<exception-util.version>2.0.4</exception-util.version>
+		<validator-util.version>2.0.4</validator-util.version>
 	</properties>
 
 	<dependencies>
