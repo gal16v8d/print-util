@@ -50,10 +50,10 @@ public final class PrintUtil {
     }
   }
 
-  private PrintService getPrintService(String nombreImpresora) {
-    if (!ValidatorUtil.isNullOrEmpty(nombreImpresora)) {
+  private PrintService getPrintService(String printerName) {
+    if (!ValidatorUtil.isNullOrEmpty(printerName)) {
       AttributeSet attributeSet = new HashAttributeSet();
-      attributeSet.add(new PrinterName(nombreImpresora, null));
+      attributeSet.add(new PrinterName(printerName, null));
       PrintService[] services = PrintServiceLookup.lookupPrintServices(null, attributeSet);
       return validatePrintService(services, false);
     } else {

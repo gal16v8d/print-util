@@ -1,14 +1,13 @@
 package com.gsdd.constants;
 
-import lombok.AccessLevel;
-import lombok.NoArgsConstructor;
+import lombok.experimental.UtilityClass;
 
 /**
  * @author Great System Development Dynamic (<b>GSDD</b>) <br>
  *     Alexander Galvis Grisales <br>
  *     alex.galvis.sistemas@gmail.com <br>
  */
-@NoArgsConstructor(access = AccessLevel.PRIVATE)
+@UtilityClass
 public final class PrintConstants {
 
   public static final String NO_PRINT_SERVICE = "Could not find any print service.";
